@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\css\style.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+  
+    <div class="title-card">
+        <h1 id="title">Crystal Collector</h1>
+    </div>
+
+
+    <div class="direction-card">
+        <div class="directions-header">How to Play</div>
+        <div class="directions">
+            <p>When the game begins, you will be given a random number.</p>
+            <p>The crystals are given a specific amount of points that when clicked on, will be added to your total score.
+                The value of each is crystal is hidden until you click on it. 
+            </p>
+            <p>You must use the crystals to match your total score with the random score given to you.
+                If your score goes over the random score, you lose.
+            </p>
+            <p>Each time you restart the game, the crystals are assigned a new amount of points.</p>
+        </div>
+    </div>
+
+    <div class="random-card">
+        <div class="randomNumber"></div>
+    </div>
+
+
+    <div class="results">
+            Wins:<div id="wins"></div>
+            Losses:<div id="losses"></div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <img src="assets/images/jewel1.jpg" class='click' id="jewel1">
+        <img src="assets/images/jewel2.jpg" class='click' id="jewel2">
+        <img src="assets/images/jewel3.jpg" class='click' id="jewel3">
+        <img src="assets/images/jewel4.jpg" class='click' id="jewel4">
+    </div>
+
+
+    <div class="score">
+       <h3>crystal total</h3>
+      </div>
+
+    <div class="math"</div>
+
+</div>
+
+<script src="assets/javascript/game.js"></script>   
+
+   
+</body>
+</html>
